@@ -1,23 +1,2 @@
 # wg0
-[Interface]
-# The private key generated for your iPhone peer
-PrivateKey = yIWwsj8+JFfD7xRgZ34jlpTrYJOROBGo59zoSmnFIXg=
-
-# Your device identity address inside this specific subnet
-Address = 10.0.0.2/32
-
-# Your NextDNS servers (using the IPv4 addresses from your dashboard)
-DNS = 45.90.28.89, 45.90.30.89
-
-[Peer]
-# The public key of your MikroTik/Server WireGuard interface
-PublicKey = 2kn9fZMRUkqolgar/ZLsfOxsvKr7LgUf00kRWmiCSR4=
-
-# The server's public IP address or domain name, plus the port number
-Endpoint = 172.240.241.62:13231
-
-# Routes all traffic through the tunnel
-AllowedIPs = 0.0.0.0/0, ::/0
-
-# Keeps the connection alive behind mobile carrier NATs
-PersistentKeepalive = 25
+[
